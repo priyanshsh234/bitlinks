@@ -16,7 +16,7 @@ const Navbar = () => {
         </ul>
         <li className='flex gap-3 ml-5'>
                 <Link href="/shorten"><button className='bg-purple-500 rounded-lg  shadow-lg  p-3 py-1 font-bold '>Try Now</button></Link>
-                <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>GitHUb</button></Link>
+                <Link href="https://github.com/priyanshsh234"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>GitHUb</button></Link>
             </li>
     </nav>
   )
