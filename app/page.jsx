@@ -14,8 +14,15 @@ const page = () => {
         We are the most straightforward URL shortner
       </p>
       <li className='flex gap-3 ml-5 mx-10'>
-                <Link href="/generate"><button className='bg-purple-500 rounded-lg  shadow-lg  p-3 py-1 font-bold text-white '>Try Now</button></Link>
-                <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>GitHUb</button></Link>
+                <Link href="/shorten"><button className='bg-purple-500 rounded-lg  shadow-lg  p-3 py-1 font-bold text-white '>Try Now</button></Link>
+                <a className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'
+          href="https://github.com/priyansh234"
+          target="_blank"
+          rel="noopener noreferrer"
+         
+        >
+          
+     GitHUb </a> 
             </li>
       </div>
       <div className='flex jutify-start relative'>
