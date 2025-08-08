@@ -1,5 +1,5 @@
 
-import clientPromise from "@/lib/mongodb"
+import clientPromise from "@/lib/mongo"
 
 export async function POST(request) {
 
